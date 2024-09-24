@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FuelTrakModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Drivers">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BonusCard" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Count" Type="Int32" />
+    <Property Name="DiscountCoefficient" Type="Decimal" Precision="5" Scale="2" />
+    <NavigationProperty Name="Refuellings" Relationship="Self.FK__Refuellin__Drive__3A81B327" FromRole="Drivers" ToRole="Refuellings" />
+  </EntityType>
+  <EntityType Name="MarksOfGasoline">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Cost" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="TotalQuantity" Type="Int32" />
+    <NavigationProperty Name="Refuellings" Relationship="Self.FK__Refuellin__MarkI__3B75D760" FromRole="MarksOfGasoline" ToRole="Refuellings" />
+  </EntityType>
+  <EntityType Name="Refuellings">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="DriverID" Type="Int32" />
+    <Property Name="MarkID" Type="Int32" />
+    <Property Name="RefuellingDateTime" Type="DateTime" Precision="3" />
+    <Property Name="Liters" Type="Double" />
+    <NavigationProperty Name="Drivers" Relationship="Self.FK__Refuellin__Drive__3A81B327" FromRole="Refuellings" ToRole="Drivers" />
+    <NavigationProperty Name="MarksOfGasoline" Relationship="Self.FK__Refuellin__MarkI__3B75D760" FromRole="Refuellings" ToRole="MarksOfGasoline" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK__Refuellin__Drive__3A81B327">
+    <End Role="Drivers" Type="Self.Drivers" Multiplicity="0..1" />
+    <End Role="Refuellings" Type="Self.Refuellings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Drivers">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Refuellings">
+        <PropertyRef Name="DriverID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Refuellin__MarkI__3B75D760">
+    <End Role="MarksOfGasoline" Type="Self.MarksOfGasoline" Multiplicity="0..1" />
+    <End Role="Refuellings" Type="Self.Refuellings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MarksOfGasoline">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Refuellings">
+        <PropertyRef Name="MarkID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FuelTrakEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Drivers" EntityType="Self.Drivers" />
+    <EntitySet Name="MarksOfGasoline" EntityType="Self.MarksOfGasoline" />
+    <EntitySet Name="Refuellings" EntityType="Self.Refuellings" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK__Refuellin__Drive__3A81B327" Association="Self.FK__Refuellin__Drive__3A81B327">
+      <End Role="Drivers" EntitySet="Drivers" />
+      <End Role="Refuellings" EntitySet="Refuellings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Refuellin__MarkI__3B75D760" Association="Self.FK__Refuellin__MarkI__3B75D760">
+      <End Role="MarksOfGasoline" EntitySet="MarksOfGasoline" />
+      <End Role="Refuellings" EntitySet="Refuellings" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(FuelTrakModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(FuelTrakModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

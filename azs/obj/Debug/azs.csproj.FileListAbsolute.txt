@@ -1,0 +1,165 @@
+D:\DISK D\C#\practica\azs\azs\bin\Debug\azs.exe
+D:\DISK D\C#\practica\azs\azs\bin\Debug\EntityFramework.dll
+D:\DISK D\C#\practica\azs\azs\bin\Debug\EntityFramework.SqlServer.dll
+D:\DISK D\C#\practica\azs\azs\bin\Debug\ru\EntityFramework.resources.dll
+D:\DISK D\C#\practica\azs\azs\bin\Debug\azs.exe.config
+D:\DISK D\C#\practica\azs\azs\bin\Debug\azs.pdb
+D:\DISK D\C#\practica\azs\azs\bin\Debug\EntityFramework.xml
+D:\DISK D\C#\practica\azs\azs\bin\Debug\EntityFramework.SqlServer.xml
+D:\DISK D\C#\practica\azs\azs\obj\Debug\azs.csproj.AssemblyReference.cache
+D:\DISK D\C#\practica\azs\azs\obj\Debug\EditDriverWindow.g.cs
+D:\DISK D\C#\practica\azs\azs\obj\Debug\MainWindow.g.cs
+D:\DISK D\C#\practica\azs\azs\obj\Debug\Page1.g.cs
+D:\DISK D\C#\practica\azs\azs\obj\Debug\Page2.g.cs
+D:\DISK D\C#\practica\azs\azs\obj\Debug\Page3.g.cs
+D:\DISK D\C#\practica\azs\azs\obj\Debug\App.g.cs
+D:\DISK D\C#\practica\azs\azs\obj\Debug\azs_Content.g.cs
+D:\DISK D\C#\practica\azs\azs\obj\Debug\azs_MarkupCompile.cache
+D:\DISK D\C#\practica\azs\azs\obj\Debug\azs_MarkupCompile.lref
+D:\DISK D\C#\practica\azs\azs\obj\Debug\EditDriverWindow.baml
+D:\DISK D\C#\practica\azs\azs\obj\Debug\MainWindow.baml
+D:\DISK D\C#\practica\azs\azs\obj\Debug\Page1.baml
+D:\DISK D\C#\practica\azs\azs\obj\Debug\Page2.baml
+D:\DISK D\C#\practica\azs\azs\obj\Debug\Page3.baml
+D:\DISK D\C#\practica\azs\azs\obj\Debug\azs.g.resources
+D:\DISK D\C#\practica\azs\azs\obj\Debug\azs.Properties.Resources.resources
+D:\DISK D\C#\practica\azs\azs\obj\Debug\azs.csproj.GenerateResource.cache
+D:\DISK D\C#\practica\azs\azs\obj\Debug\azs.csproj.CoreCompileInputs.cache
+D:\DISK D\C#\practica\azs\azs\obj\Debug\azs.exe
+D:\DISK D\C#\practica\azs\azs\obj\Debug\azs.pdb
+D:\DISK D\C#\practica\azs\azs\obj\Debug\Window1.g.cs
+D:\DISK D\C#\practica\azs\azs\obj\Debug\Window1.baml
+D:\DISK D\C#\practica\azs\azs\bin\Debug\EPPlus.dll
+D:\DISK D\C#\practica\azs\azs\bin\Debug\EPPlus.Interfaces.dll
+D:\DISK D\C#\practica\azs\azs\bin\Debug\EPPlus.System.Drawing.dll
+D:\DISK D\C#\practica\azs\azs\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\DISK D\C#\practica\azs\azs\bin\Debug\System.Buffers.dll
+D:\DISK D\C#\practica\azs\azs\bin\Debug\System.ComponentModel.Annotations.dll
+D:\DISK D\C#\practica\azs\azs\bin\Debug\System.Memory.dll
+D:\DISK D\C#\practica\azs\azs\bin\Debug\System.Numerics.Vectors.dll
+D:\DISK D\C#\practica\azs\azs\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\DISK D\C#\practica\azs\azs\bin\Debug\EPPlus.xml
+D:\DISK D\C#\practica\azs\azs\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\DISK D\C#\practica\azs\azs\bin\Debug\System.Buffers.xml
+D:\DISK D\C#\practica\azs\azs\bin\Debug\System.Memory.xml
+D:\DISK D\C#\practica\azs\azs\bin\Debug\System.Numerics.Vectors.xml
+D:\DISK D\C#\practica\azs\azs\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\DISK D\C#\practica\azs\azs\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\DISK D\C#\practica\azs\azs\bin\Debug\zxing.dll
+D:\DISK D\C#\practica\azs\azs\bin\Debug\zxing.presentation.dll
+D:\DISK D\C#\practica\azs\azs\bin\Debug\zxing.xml
+D:\DISK D\C#\practica\azs\azs\bin\Debug\zxing.presentation.xml
+D:\DISK D\C#\practica\azs\azs\obj\Debug\PaymentWindow.g.cs
+D:\DISK D\C#\practica\azs\azs\obj\Debug\PaymentWindow.baml
+D:\DISK D\C#\practica\azs\azs\bin\Debug\QRCoder.dll
+D:\DISK D\C#\practica\azs\azs\obj\Debug\azs.csproj.Up2Date
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\azs.exe.config
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\azs.exe
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\azs.pdb
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\EntityFramework.dll
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\EntityFramework.SqlServer.dll
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\EPPlus.dll
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\EPPlus.Interfaces.dll
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\EPPlus.System.Drawing.dll
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\QRCoder.dll
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.Buffers.dll
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.ComponentModel.Annotations.dll
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.Memory.dll
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.Numerics.Vectors.dll
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\zxing.dll
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\zxing.presentation.dll
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\EntityFramework.xml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\EntityFramework.SqlServer.xml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\EPPlus.xml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.Buffers.xml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.Memory.xml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.Numerics.Vectors.xml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\zxing.xml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\zxing.presentation.xml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\ru\EntityFramework.resources.dll
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs.csproj.AssemblyReference.cache
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\EditDriverWindow.g.cs
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\MainWindow.g.cs
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\Page1.g.cs
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\Page2.g.cs
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\Page3.g.cs
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\PaymentWindow.g.cs
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\Window1.g.cs
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\App.g.cs
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs_Content.g.cs
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs_MarkupCompile.cache
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs_MarkupCompile.lref
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\EditDriverWindow.baml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\MainWindow.baml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\Page1.baml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\Page2.baml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\Page3.baml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\PaymentWindow.baml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\Window1.baml
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs.g.resources
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs.Properties.Resources.resources
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs.csproj.GenerateResource.cache
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs.csproj.CoreCompileInputs.cache
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs.csproj.Up2Date
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs.exe
+D:\DISK D\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs.pdb
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\azs.exe.config
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\azs.exe
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\azs.pdb
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\EntityFramework.dll
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\EntityFramework.SqlServer.dll
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\EPPlus.dll
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\EPPlus.Interfaces.dll
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\EPPlus.System.Drawing.dll
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\QRCoder.dll
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.Buffers.dll
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.ComponentModel.Annotations.dll
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.Memory.dll
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.Numerics.Vectors.dll
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\zxing.dll
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\zxing.presentation.dll
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\EntityFramework.xml
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\EntityFramework.SqlServer.xml
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\EPPlus.xml
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.Buffers.xml
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.Memory.xml
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.Numerics.Vectors.xml
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\zxing.xml
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\zxing.presentation.xml
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\ru\EntityFramework.resources.dll
+D:\it\3 курс\C#\Практика\practica\azs\azs\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs.csproj.AssemblyReference.cache
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\EditDriverWindow.g.cs
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\MainWindow.g.cs
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\Page1.g.cs
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\Page2.g.cs
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\Page3.g.cs
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\PaymentWindow.g.cs
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\Window1.g.cs
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\App.g.cs
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs_Content.g.cs
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs_MarkupCompile.cache
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs_MarkupCompile.lref
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\EditDriverWindow.baml
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\MainWindow.baml
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\Page1.baml
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\Page2.baml
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\Page3.baml
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\PaymentWindow.baml
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\Window1.baml
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs.g.resources
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs.Properties.Resources.resources
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs.csproj.GenerateResource.cache
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs.csproj.CoreCompileInputs.cache
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs.csproj.Up2Date
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs.exe
+D:\it\3 курс\C#\Практика\practica\azs\azs\obj\Debug\azs.pdb

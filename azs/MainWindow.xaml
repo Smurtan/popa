@@ -1,0 +1,68 @@
+﻿<Window x:Class="azs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:azs"
+        mc:Ignorable="d"
+        Title="FuelTrak" Height="450" Width="800">
+    <Grid Cursor="Hand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Шапка с иконкой и названием -->
+        <DockPanel Grid.Row="0" Background="#606E8C">
+            <!-- Логотип или иконка компании -->
+            <Image Source="Resources/c5c55e53ac52effef162cf3d0a9ee53b.ico"
+                   Margin="15,0,0,0"
+                   Height="50"
+                   DockPanel.Dock="Left"/>
+            <Button x:Name="BtnBack"
+                Content="Назад"
+                Margin="0,0,15,0"
+                DockPanel.Dock="Right"
+                Click="BtnBack_Click" 
+                Background="#ffff" Foreground="#FF141729" 
+                FontFamily="Franklin Gothic Demi"
+                Width="124" 
+                Height="34"/>
+            <!-- Название приложения -->
+            <TextBlock Text="FuelTrak"
+                       VerticalAlignment="Center"
+                       Padding="10,0,10,0"
+                       FontSize="22"
+                       FontWeight="Bold"
+                       Foreground="White"/>
+        </DockPanel>
+
+        <!-- Блок с данными о заправке -->
+        <Grid Margin="155,1,0,0" Grid.Row="1">
+            <!-- Авторизация -->
+            <StackPanel Margin="2,-2,1,0">
+
+                <TextBlock Text="Авторизация"  Foreground="#015fbf" FontSize="42" FontWeight="Bold" FontFamily="Franklin Gothic Demi" Width="273" Height="53" Margin="50,30 ,20,0"/>
+
+                <Label Content="Введите логин:" FontSize="20" FontWeight="Bold" FontFamily="Franklin Gothic Demi" Width="177" Height="34" Margin="50,30 ,20,0"/>
+                <TextBox Name ="loginTextBox" TextWrapping="Wrap" Text="" Width="194" Height="25" FontSize="20" FontWeight="Regular" FontFamily="Franklin Gothic Demi" Foreground="#606E8C"/>
+
+                <Label Content="Введите пароль:" FontSize="20" FontWeight="Bold" FontFamily="Franklin Gothic Demi" Width="176" Height="34" Margin="50,30 ,20,0"/>
+                <TextBox  Name="passwordTextBox" TextWrapping="Wrap" Text="" Width="194" Height="25" FontSize="20" FontWeight="Regular" FontFamily="Franklin Gothic Demi" Foreground="#606E8C"/>
+
+                <Button Click ="idButton_Click" Content="Вход" Margin="25" FontSize="16" FontWeight="Regular" FontFamily="Franklin Gothic Demi" Background="#606E8C" Foreground="#FFFF" Width="184" Height="38"/>
+
+
+            </StackPanel>
+        </Grid>
+        <Frame Grid.Row="1" x:Name="MainFrame" NavigationUIVisibility="Hidden" ContentRendered="MainFrame_ContentRendered" Navigated="MainFrame_Navigated" Margin="156,0,0,0" Grid.RowSpan="2"/>
+        <!-- Доковая панель навигации -->
+        <DockPanel Grid.Row="1" Background="#606E8C" Margin="0,0,645,-1">
+            <StackPanel Orientation="Vertical" Height="273">
+                <Button x:Name ="rez" Content="РЕЗЕРВУАРЫ" Background="#ffff" Foreground="#FF141729" Margin="5" FontFamily="Franklin Gothic Demi" BorderBrush="#FFC4E5FF" Height="79" Width="134" Click="Button_Click" Visibility="Hidden"/>
+                <Button Name ="klient" Content="КЛИЕНТ" Background="#ffff" Foreground="#FF141729" Margin="5" FontFamily="Franklin Gothic Demi" BorderBrush="#FFC4E5FF" Height="78" Width="134" Click="Button_Click_2" Visibility="Hidden"/>
+                <Button Name ="zapravka" Content="ОТЧЁТ" Background="#ffff" Foreground="#FF141729" Margin="5" FontFamily="Franklin Gothic Demi" BorderBrush="#FFC4E5FF" Height="79" Width="134" Click="Button_Click_3" Visibility="Hidden"/>
+            </StackPanel>
+        </DockPanel>
+    </Grid>
+</Window>

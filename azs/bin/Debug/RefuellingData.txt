@@ -1,0 +1,5 @@
+Liters: 12
+Fuel Type: АИ-92
+Bonus Card: 995619
+Discount: 0,00
+Cost: 546,00
