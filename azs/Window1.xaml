@@ -1,0 +1,40 @@
+﻿<Window x:Class="azs.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:azs"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="Редактирование" Height="300" Width="400">
+    <Grid>
+
+            <StackPanel Margin="20">
+
+
+
+            <Label Content="Тип топлива:" FontSize="16" FontWeight="Regular" FontFamily="Franklin Gothic Demi"/>
+            <ComboBox Name="Combobox1" ItemsSource="{Binding Marks}" DisplayMemberPath="Name"/>
+
+            <StackPanel>
+                <Label Content="Номер колонки:" FontSize="16" FontWeight="Regular" FontFamily="Franklin Gothic Demi"/>
+
+                <ComboBox Name="comboBox2">
+                    <ComboBoxItem Content="1"/>
+                    <ComboBoxItem Content="2"/>
+                    <ComboBoxItem Content="3"/>
+                    <ComboBoxItem Content="4"/>
+                    <ComboBoxItem Content="5"/>
+                    <ComboBoxItem Content="6"/>
+                </ComboBox>
+            </StackPanel>
+
+            <Label Content="Введите кол-во заправленных литров:" FontSize="16" FontWeight="Regular" FontFamily="Franklin Gothic Demi"/>
+            <TextBox x:Name="textBox_Litter" TextWrapping="Wrap" Text="" FontSize="16" FontFamily="Franklin Gothic Demi"/>
+
+
+                <Button Content="Изменить" FontSize="16" FontWeight="Regular" FontFamily="Franklin Gothic Demi" Background="#606E8C" Foreground="#FFFF" Height="34" Margin="24" Click="Button_Click" />
+            </StackPanel>
+
+    </Grid>
+</Window>
