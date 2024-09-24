@@ -50,11 +50,11 @@ namespace azs
             }
 
             // Вычисляем высоту таблицы на основе количества записей
-            double totalRowsHeight = DGridProducts.Items.Count * (DGridProducts.RowHeight + 1); // Учитываем высоту заголовка
+            double totalRowsHeight = DGridProducts.Items.Count * (DGridProducts.RowHeight + 1);
 
             // Задаем новые размеры таблицы
-            DGridProducts.Width = totalColumnsWidth + 25; // 25 - для полосы прокрутки
-            DGridProducts.Height = totalRowsHeight + 25; // 25 - для полосы прокрутки
+            DGridProducts.Width = totalColumnsWidth + 25;
+            DGridProducts.Height = totalRowsHeight + 25;
         }
 
         
@@ -81,7 +81,6 @@ namespace azs
                     // Записываем данные только из таблицы Refuellings в файл Excel
                     worksheet.Cells.LoadFromCollection(refuellings.Select(r => new { r.ID, r.DriverID, r.MarkID, r.UserID, r.Cost, r.Litter, r.RefuellingDate }), true);
 
-                    // Сохраняем файл
                     package.Save();
                 }
             }
