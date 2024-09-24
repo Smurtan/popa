@@ -108,7 +108,7 @@ namespace azs
                     if (selectedDriver.Count > 30)
                     {
                         // Вычисляем скидку для водителя, если он заправил более 30 раз
-                        sale = (double)(0.03 * (selectedDriver.Count - 30) * (double)costPerLiter / (cost + totalRefuellingsCost));
+                        sale = (double)(0.30 * (selectedDriver.Count - 30) * (double)costPerLiter / (cost + totalRefuellingsCost));
                     }
                     selectedDriver.DiscountCoefficient = (decimal)sale;
 
