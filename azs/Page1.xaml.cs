@@ -43,11 +43,11 @@ namespace azs
             }
 
             // Вычисляем высоту таблицы на основе количества записей
-            double totalRowsHeight = DGridProducts.Items.Count * (DGridProducts.RowHeight + 1); // Учитываем высоту заголовка
+            double totalRowsHeight = DGridProducts.Items.Count * (DGridProducts.RowHeight + 1);
 
             // Задаем новые размеры таблицы
-            DGridProducts.Width = totalColumnsWidth + 25; // 25 - для полосы прокрутки
-            DGridProducts.Height = totalRowsHeight + 25; // 25 - для полосы прокрутки
+            DGridProducts.Width = totalColumnsWidth + 25;
+            DGridProducts.Height = totalRowsHeight + 25;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
