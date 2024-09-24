@@ -1,0 +1,32 @@
+﻿<Window x:Class="azs.PaymentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:azs"
+        mc:Ignorable="d"
+ Title="Оплата" Height="574" Width="400">
+    <Grid Height="585" VerticalAlignment="Top">
+        <StackPanel Margin="20,0,20,59">
+            
+            <Label Content="Оплата по QR коду" FontSize="16" FontWeight="Regular" FontFamily="Franklin Gothic Demi"/>
+            <Image Name="qrCodeImage" Source="{Binding QRCodeImage}" MouseLeftButtonDown="QrCodeImage_MouseLeftButtonDown"  Width="250" Height="250" />
+
+            <Label Content="Количество литров:" FontSize="16" FontWeight="Regular" FontFamily="Franklin Gothic Demi"/>
+            <TextBox Name="textBox_1" TextWrapping="Wrap" Text="" FontSize="15" FontFamily="Franklin Gothic Demi" Foreground="#606E8C"/>
+
+            <Label Content="Тип топлива:" FontSize="16" FontWeight="Regular" FontFamily="Franklin Gothic Demi"/>
+            <TextBox Name="textBox_2" TextWrapping="Wrap" Text="" FontSize="15" FontFamily="Franklin Gothic Demi" Foreground="#606E8C"/>
+
+            <Label Content="Номер бонусной карты:" FontSize="16" FontWeight="Regular" FontFamily="Franklin Gothic Demi"/>
+            <TextBox Name="textBox_3" TextWrapping="Wrap" Text="" FontSize="15" FontFamily="Franklin Gothic Demi" Foreground="#606E8C"/>
+
+            <Label Content="Скидка:" FontSize="16" FontWeight="Regular" FontFamily="Franklin Gothic Demi"/>
+            <TextBox Name="textBox_4" TextWrapping="Wrap" Text="" FontSize="15" FontFamily="Franklin Gothic Demi" Foreground="#606E8C"/>
+
+            <Label Content="Стоимость:" FontSize="16" FontWeight="Regular" FontFamily="Franklin Gothic Demi"/>
+            <TextBox Name="textBox_5" TextWrapping="Wrap" Text="" FontSize="15" FontFamily="Franklin Gothic Demi" Foreground="#606E8C"/>
+            
+        </StackPanel>
+    </Grid>
+</Window>
